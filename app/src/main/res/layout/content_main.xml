@@ -11,5 +11,24 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.kuwako.kotlinandroid.MainActivity"
     tools:showIn="@layout/activity_main">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textViewHello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            />
+        <Button
+            android:id="@+id/changeBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="This is a Button."
+            />
+
+    </LinearLayout>
 
 </RelativeLayout>

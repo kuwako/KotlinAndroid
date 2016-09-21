@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">KotlinAndroid</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="hello_constraintlayout">Hello ConstraintLayout</string>
+    <string name="click_me">click me</string>
 </resources>

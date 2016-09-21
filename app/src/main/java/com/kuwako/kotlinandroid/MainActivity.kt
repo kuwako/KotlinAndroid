@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val toolbar = findViewById(R.id.toolbar) as Toolbar
+        var text = "clicked";
         setSupportActionBar(toolbar)
 
         val fab = findViewById(R.id.fab) as FloatingActionButton
@@ -22,7 +23,9 @@ class MainActivity : AppCompatActivity() {
 
         val tvHelloWorld = findViewById(R.id.textViewHello) as TextView
         val changeBtn = findViewById(R.id.changeBtn) as Button
-        changeBtn.setOnClickListener { view -> tvHelloWorld.setText("clicked!!") }
+        changeBtn.setOnClickListener { view -> tvHelloWorld.setText(text) }
+        val etName = findViewById(R.id.editName) as EditText
+
     }
 
 }
